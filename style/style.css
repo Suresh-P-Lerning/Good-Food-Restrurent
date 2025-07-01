@@ -18,7 +18,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin: 0 auto;
     
 
 }
@@ -58,5 +59,84 @@
     color: white;
     margin-top: 23px;
     cursor:pointer
+}
+#cardbox{
+    width: 1324px;
+    height: 600px; 
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
+    margin: 0 auto;    
+}
+.cardbox_list_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    width: 910px;  
+}
+.cardbox_container{
+    width: 910px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px;
+    border: 2px dashed rgb(204, 204, 204);
+    border-radius: 10px;
+    
+}
+.cardbox_container header{
+    text-align: center;
+    width: 600px;
+    height: 118px;
+}
+.cardbox_container header p{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.cardbox_container header h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 33px;
+    font-weight: 700;    
+    
+}
+
+.cardbox_container .cardbox_list{
+  width: 293px;  
+  height: 360px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.cardbox_list > img{
+   width: 100%; 
+   border: 2px dashed rgb(161, 161, 161);
+   border-radius: 16px;
+}
+.cardbox_list > a{
+   color: rgb(16, 16, 16);
+   font-size: 17px;
+   font-weight: 600;
+   text-decoration: none;
+   padding: 10px 20px;
+   border-radius: 8px;
+   background: rgba(82, 195, 3, 0.15);
+}
+.cardbox_list > h1{
+    color: rgb(16, 16, 16);    
+    font-size: 28px;
+    font-weight: 600;    
+}
+.cardbox_list > p{
+    color: rgb(16, 16, 16);    
+    font-size: 13px;
+    font-weight: 500;    
+    opacity: 0.7;
+    text-align: center;
+    
 }
 
